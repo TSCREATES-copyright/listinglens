@@ -1,0 +1,5 @@
+{
+  "name": "ListingLens",
+  "description": "A deterministic, browser-only resale pricing tool for flippers, side hustlers, and marketplace sellers.",
+  "requestFramePermissions": []
+}

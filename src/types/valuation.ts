@@ -1,0 +1,21 @@
+export type ValuationRecord = {
+  id: string;
+  createdAt: number;
+  updatedAt: number;
+  category: string;
+  subcategory: string;
+  brandTier: 'tierA' | 'tierB' | 'tierC' | 'generic';
+  condition: 'new' | 'likeNew' | 'excellent' | 'good' | 'fair' | 'parts';
+  ageBand: '0-1' | '1-3' | '3-5' | '5+';
+  accessories: string[];
+  urgency: 'relaxed' | 'normal' | 'fast' | 'urgent';
+  strategy: 'profit' | 'balanced' | 'speed';
+  listPrice: number;
+  likelySellPrice: number;
+  fastSalePrice: number;
+  negotiationBuffer: number;
+  confidence: number;
+  title: string;
+  notes?: string;
+  sold?: boolean;
+};
